@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#cfe1f7">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_name2"
+            android:id="@+id/textView"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify"
+            android:id="@+id/button_spotify"
+            android:background="#F08C35"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scores"
+            android:id="@+id/button_scores"
+            android:background="#F08C35"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library"
+            android:id="@+id/button_library"
+            android:background="#F08C35"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/build"
+            android:id="@+id/button_build"
+            android:background="#F08C35"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reader"
+            android:id="@+id/button_reader"
+            android:background="#F08C35"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone"
+            android:id="@+id/button_capstone"
+            android:background="#B71C1C"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+</RelativeLayout>
